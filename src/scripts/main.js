@@ -357,7 +357,7 @@ const people = [
 // eslint-disable-next-line no-console
 console.log(people); // you can remove it
 
-const tableHeader = document.querySelector('.dashboard');
+const tableHeader = document.querySelector('tbody');
 
 people.forEach((person) => {
   const row = document.createElement('tr');
